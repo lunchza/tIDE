@@ -1,0 +1,28 @@
+ORG 0000 ;;This program prints a simple "Hello World"
+BEG
+start: LDI 72	;H
+OTA
+LDI 101	;e
+OTA
+LDI 108	;l
+OTA
+LDI 108	;l
+OTA
+LDI 111	;o
+OTA
+LDI 32	; 
+OTA
+LDI 119	;W
+OTA
+LDI 111	;o
+OTA
+LDI 114	;r
+OTA
+LDI 108	;l
+OTA
+LDI 100	;d
+OTA
+LDI 33	;!
+OTA
+HLT
+END
